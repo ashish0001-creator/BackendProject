@@ -1,0 +1,15 @@
+{
+  "name": "hostel-management-system",
+  "version": "1.0.0",
+  "description": "A hostel management system with student and warden roles",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init": "node init-users.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcrypt": "^5.1.1"
+  }
+} 
